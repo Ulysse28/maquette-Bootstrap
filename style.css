@@ -1,0 +1,257 @@
+/*STYLE HEADER
+ULYSSE*/
+
+body{
+	/*margin: 0;*/
+	background: black;
+}
+
+header{
+	/*top: 0 !important;*/
+	background: url('img/img_header.png') no-repeat;
+	background-size: 1920px;
+	background-position: 50% 50%;
+	overfow: hidden;
+	height: 1700px;
+}
+
+header .container{
+	height: 100%;
+}
+
+.navbar a{
+	color: #ffe4b5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffe4b5;
+}
+
+.navbar-nav{
+	width: 100%;
+	border-top: 1px solid #ffe4b5; 
+	border-bottom: 1px solid #ffe4b5;
+	margin-top: 10vh;
+
+}
+
+.navbar-toggler{
+	background: #ffe4b5;
+	margin-top: 50px;
+}
+
+.title h2{
+	font-size: 200px;
+	
+}
+
+.title{
+	color:  #ffe4b5;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    justify-content: flex-end;
+	
+}
+
+
+
+/*SECOND SECTION*/
+.second-section {
+/*  background: url(./img/img_bloc2.png) no-repeat center/cover;*/
+background: url(img/img_bloc2.png) no-repeat;
+  background-size: 1920px;
+	background-position: 50% 50%;
+	overfow: hidden;
+	height: 1050px;
+}
+
+.second-section h2 {
+  color: #ffe4b5;
+  font-size: 5vw;
+  letter-spacing: 2px;
+}
+/***********************end of second section*****************************/
+
+
+
+/*THIRD SECTION*/
+.third-section {
+  background: url(./img/img_bloc3.png)no-repeat center/cover;
+}
+.third-section__texts {
+  left: 50%;
+  bottom: calc(0% + 1rem);
+  transform: translateX(-50%);
+}
+
+.third-section > p  {
+  padding-top: 5rem;
+}
+
+/*************************end of third section******************************/
+
+/*FOURTH SECTION*/
+.bloc4{
+	top: 0 !important;
+	background: url('./img/img_bloc4.png') no-repeat;
+	background-size: 1920px;
+	background-position: 50% 50%;
+	overfow: hidden;
+	height: 1000px;
+}
+
+.flex4{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100vh;
+}
+
+/*Dots for the menu*/
+.dots::after{
+	content: "...................";
+}
+
+h3{
+	color:  #ffe4b5;;
+}
+
+/**************************end of fourth section***************************/
+
+/*FIFTH SECTION*/
+.bloc5{
+	top: 0 !important;
+	background: url('./img/img_bloc5.png')center no-repeat;
+	background-size: 1920px;
+}
+
+.bloc5 h2 {
+	color: #ffe4b5;
+	letter-spacing: 0.5rem;
+}
+
+.bloc5 .title {
+	letter-spacing: 1.5rem;
+}
+
+.bloc5 .position-absolute {
+	left: 50%;
+  bottom: calc(0% + 3rem);
+  transform: translateX(-50%);
+}
+
+/**************************end of fifth section***************************/
+
+/*SIXTH SECTION*/
+.bloc6{
+	top: 0 !important;
+	background: url('./img/img_bloc6.png') no-repeat;
+	background-size: 1920px;
+	background-position: 50% 50%;
+	overfow: hidden;
+	height: 1300px;
+}
+
+.bloc6 h1, h2 {
+	color: #ffe4b5;
+}
+
+.offer{
+	margin-top: 20vh;
+}
+
+.height{
+	margin-top: 90vh;
+}
+
+@media screen and (max-width: 900px)
+{
+	.height
+	{
+		margin-top: 100vh;
+	}
+}
+
+/**************************end of SIXTH section***************************/
+
+/*SEVENTH SECTION*/
+.seventh_section {
+  background: url("./img/img_bloc7.png") no-repeat center/cover;
+}
+
+.seventh_section--first-para {
+  width: 50%;
+}
+
+.seventh_section h2:last-of-type {
+  color: #ffe4b5;
+}
+
+.seventh_section p {
+  margin: 9rem;
+}
+/**************************end of SEVENTH section***************************/
+
+
+.bloc7{
+	top: 0 !important;
+	background: url('img/img_bloc8.png') no-repeat;
+	background-size: 1920px;
+	background-position: 50% 50%;
+	overfow: hidden;
+	height: 1300px;
+}
+
+
+/*.offer{
+	margin-top: 20vh;
+}
+
+.height{
+	margin-top: 100vh;
+}*/
+
+footer{
+background: url('img/footer2.png') no-repeat;
+	background-size: 1920px;
+	background-position:  50% 50%;
+	overflow: hidden;
+	height: 250px;
+
+}
+
+
+.title{
+	font-size: 80px;
+}
+
+.flex6{
+	    display: flex;
+    flex-direction: column;
+    height: 130vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ul li{
+	display: inline;
+	list-style-type: none;
+	margin: 5px;
+
+
+}
+
+.icone{
+	border-radius: 50%;
+}
+
+.color{
+	color: #ffe4b5;
+}
