@@ -55,7 +55,6 @@ header .container{
     align-items: center;
     height: 120vh;
     justify-content: flex-end;
-	
 }
 
 
@@ -254,4 +253,13 @@ ul li{
 
 .color{
 	color: #ffe4b5;
+}
+
+
+@media screen and (max-width: 900px)
+{
+	.flex1
+	{
+		height: 80vh;
+	}
 }
