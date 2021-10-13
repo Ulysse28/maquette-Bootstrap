@@ -41,6 +41,11 @@ header .container{
 	background: #ffe4b5;
 	margin-top: 50px;
 }
+.navbar-toggler-icon{
+	width: 2em;
+	height: 2em;
+	padding-left: 0
+}
 
 .title h2{
 	font-size: 200px;
