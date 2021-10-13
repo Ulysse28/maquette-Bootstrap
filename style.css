@@ -147,19 +147,14 @@ h3{
 .bloc5{
 	top: 0 !important;
 	background: url('./img/img_bloc5.png')center no-repeat;
-<<<<<<< HEAD
+
 	
-    background-size: cover;
-    height: 100vh;
-=======
-<<<<<<< HEAD
+   
+
+
 	background-size: cover;
   height: 100vh;
-=======
-	background-size: 1800px;
-	height: 110vh;
->>>>>>> ba34f0202e05af2a0dfa4e0e9de60d10a6d26483
->>>>>>> 43e58890f0246932a24a774b82ab2e774be7a29c
+
 }
 
 .bloc5 h2 {
