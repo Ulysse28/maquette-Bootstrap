@@ -7,13 +7,11 @@ body{
 }
 
 header{
-	/*top: 0 !important;*/
 	background: url('img/img_header.png') no-repeat;
 	background-size: 1920px;
 	background-position: 50% 50%;
 	overfow: hidden;
 	height: 1700px;
-	
 }
 
 header .container{
@@ -33,7 +31,6 @@ header .container{
 	border-top: 1px solid #ffe4b5; 
 	border-bottom: 1px solid #ffe4b5;
 	margin-top: 10vh;
-
 }
 
 .navbar-toggler{
@@ -50,7 +47,6 @@ header .container{
 .title h2{
 	font-size: 200px;
 	font-weight: 100;
-	
 }
 
 .title{
@@ -147,14 +143,8 @@ h3{
 .bloc5{
 	top: 0 !important;
 	background: url('./img/img_bloc5.png')center no-repeat;
-
-	
-   
-
-
 	background-size: cover;
-  height: 100vh;
-
+	height: 100vh;
 }
 
 .bloc5 h2 {
@@ -191,8 +181,6 @@ h3{
 .bloc6 .container{
 	height: 100%;
 }
-
-
 
 .height{
 	margin-top: 50vh;
@@ -236,85 +224,67 @@ h3{
 	height: 1300px;
 }
 
+footer{
+	background: url('img/footer2.png') no-repeat;
+	background-size: 1800px;
+	background-position:  50% 50%;
+	overflow: hidden;
+	height: 200px;
+	width: 95%;
+	margin: auto;
 
-/*.offer{
-	margin-top: 20vh;
 }
 
-.height{
-	margin-top: 100vh;
-	}*/
 
-	footer{
-		background: url('img/footer2.png') no-repeat;
-		background-size: 1800px;
-		background-position:  50% 50%;
-		overflow: hidden;
-		height: 200px;
-		width: 95%;
-		margin: auto;
+.title{
+	font-size: 80px;
+}
 
-	}
-
-
-	.title{
-		font-size: 80px;
-	}
-
-	.flex6{
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-		justify-content: space-between;
-		align-items: center;
-	}
+.flex6{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 
-	ul li{
-		display: inline;
-		list-style-type: none;
-		margin: 5px;
+ul li{
+	display: inline;
+	list-style-type: none;
+	margin: 5px;
 
 
-	}
+}
 
-	.icone{
-		border-radius: 50%;
-	}
+.icone{
+	border-radius: 50%;
+}
 
-	.color{
-		color: #ffe4b5;
-	}
-
-
-	@media screen and (max-width: 900px)
-	{
+.color{
+	color: #ffe4b5;
+}
 
 
+.test1{
+	height: 90%;
+	text-align: center;
+}
 
+.center{
+	align-self: center;
+}
 
-	}
+.end{
+	align-self: end;
+}
 
-	.test1{
-		height: 80%;
-		text-align: center;
-	}
-
-	.center{
-		align-self: center;
-	}
-
-	.end{
-		align-self: end;
-	}
-
-<<<<<<< HEAD
 .test3{
 	height: 100%;
 }
-=======
-	.test3{
-		height: 100%;
-	}
->>>>>>> ba34f0202e05af2a0dfa4e0e9de60d10a6d26483
+
+.title2{
+	font-size: 100px;
+}
+
