@@ -17,6 +17,7 @@
 
 	.title{
 		font-size: 80px;
+		color:  #ffe4b5;
 	}
 
 	/************************************ HEADER ************************************/
@@ -74,9 +75,7 @@
 		font-weight: 100;
 	}
 
-	.title{
-		color:  #ffe4b5;
-	}
+	
 
 	.flex1{
 		display: flex;
@@ -284,6 +283,10 @@
 
 	.icone{
 		border-radius: 50%;
+	}
+
+	.contact{
+			color:  #ffe4b5;
 	}
 
 
