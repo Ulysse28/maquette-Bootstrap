@@ -285,3 +285,10 @@
 	.icone{
 		border-radius: 50%;
 	}
+
+
+@media screen and(max-width: 900px){
+	body p{
+		font-size: 40px;
+	}
+}
