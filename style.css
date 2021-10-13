@@ -1,299 +1,287 @@
-/*STYLE HEADER
-ULYSSE*/
+/*
+	Ulysse and Tenzin
+	Maquette Bootstrap
+	CSS file
+	*/
 
-body{
-	background: black;
-	font-family: 'Roboto', sans-serif;
-}
+	/************************************ GENERAL ************************************/
 
-header{
-	background: url('img/img_header.png') no-repeat;
-	background-size: 1920px;
-	background-position: 50% 50%;
-	overfow: hidden;
-	height: 1900px;
-	border-bottom: 20vh solid rgba(0, 0, 0 ,0.2);
-}
-
-header .container{
-	height: 100%;
-}
-
-.navbar a{
-	color: #ffe4b5;
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: #ffe4b5;
-}
-
-.navbar-nav{
-	width: 100%;
-	border-top: 1px solid #ffe4b5; 
-	border-bottom: 1px solid #ffe4b5;
-	margin-top: 10vh;
-}
-
-.navbar-toggler{
-	background: #ffe4b5;
-	margin-top: 50px;
-}
-
-.navbar-toggler-icon{
-	width: 2em;
-	height: 2em;
-	padding-left: 0
-}
-
-
-.nav-item a{
-	text-decoration: none;
-}
-.title h2{
-	font-size: 200px;
-	font-weight: 100;
-}
-
-.title{
-	color:  #ffe4b5;
-}
-
-.flex1{
-	display: flex;
-	flex-direction: column;
-	height: 68%;
-	justify-content: flex-end;
-}
-
-/*SECOND SECTION*/
-.second-section {
-	/*  background: url(./img/img_bloc2.png) no-repeat center/cover;*/
-	background: url(img/img_bloc2.png) no-repeat;
-	background-size: 1920px;
-	background-position: 50% 50%;
-	overfow: hidden;
-	height: 1050px;
-}
-
-.second-section h2 {
-	color: #ffe4b5;
-	font-size: 50px;
-	letter-spacing: 2px;
-}
-/***********************end of second section*****************************/
-
-/*THIRD SECTION*/
-.third-section {
-	background: url(./img/img_bloc3.png)no-repeat center/cover;
-}
-
-.third-section__texts {
-	left: 50%;
-	bottom: calc(0% + 1rem);
-	transform: translateX(-50%);
-}
-
-.third-section > p  {
-	padding-top: 5rem;
-}
-
-/****************new********************/
-.white
-{
-	color: white;
-}
-/****************new********************/
-
-.test{
-	height: 70vh;
-}
-
-.flex10{
-	height: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-/*************************end of third section******************************/
-
-/*FOURTH SECTION*/
-.bloc4{
-	top: 0 !important;
-	background: url('./img/img_bloc4.png') no-repeat;
-	background-size: 1920px;
-	background-position: 50% 50%;
-	overfow: hidden;
-	height: 1000px;
-	border-top: 5vh solid rgba(0, 0, 0, 0.1);
-		border-bottom: 5vh solid rgba(0, 0, 0, 0.3)
-}
-
-.flex4{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	height: 100%;
-}
-
-/*Dots for the menu*/
-.dots::after{
-	content: "...................";
-}
-
-h3{
-	color:  #ffe4b5;;
-}
-
-/**************************end of fourth section***************************/
-
-/*FIFTH SECTION*/
-.bloc5{
-	top: 0 !important;
-	background: url('./img/img_bloc5.png')center no-repeat;
-	background-size: cover;
-	height: 100vh;
-	border-top: 5vh solid rgba(0, 0, 0, 0.3);
-	border-bottom: 5vh solid rgba(0, 0, 0, 0.3);
-}
-
-.bloc5 h2 {
-	color: #ffe4b5;
-	letter-spacing: 0.5rem;
-}
-
-.bloc5 .title {
-	letter-spacing: 1.5rem;
-}
-
-.bloc5 .position-absolute {
-	left: 50%;
-	bottom: calc(0% + 3rem);
-	transform: translateX(-50%);
-}
-
-/**************************end of fifth section***************************/
-
-/*SIXTH SECTION*/
-.bloc6{
-	top: 0 !important;
-	background: url('./img/img_bloc6.png') no-repeat;
-	background-size: 1920px;
-	background-position: 50% 50%;
-	overfow: hidden;
-	height: 1300px;
-}
-
-.bloc6 h1, h2 {
-	color: #ffe4b5;
-}
-
-.bloc6 .container{
-	height: 100%;
-}
-
-.height{
-	margin-top: 50vh;
-}
-
-@media screen and (max-width: 900px)
-{
-	.height
-	{
-		margin-top: 100vh;
+	body{
+		background: black;
+		font-family: 'Roboto', sans-serif;
 	}
-}
 
-/**************************end of SIXTH section***************************/
+	h3{
+		color:  #ffe4b5;;
+	}
 
-/*SEVENTH SECTION*/
-.seventh_section {
-	background: url("./img/img_bloc7.png") no-repeat center/cover;
-}
+	.title{
+		font-size: 80px;
+	}
 
-.seventh_section--first-para {
-	width: 50%;
-}
+	/************************************ HEADER ************************************/
 
-.seventh_section h2:last-of-type {
-	color: #ffe4b5;
-}
+	header{
+		background: url('img/img_header.png') no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
+		overfow: hidden;
+		height: 1900px;
+		border-bottom: 20vh solid rgba(0, 0, 0 ,0.2);
+	}
 
-.seventh_section p {
-	margin: 9rem;
-}
-/**************************end of SEVENTH section***************************/
+	header .container{
+		height: 100%;
+	}
 
+	/************************************ NAV ************************************/
 
-.bloc7{
-	top: 0 !important;
-	background: url('img/img_bloc8.png') no-repeat;
-	background-size: 1920px;
-	background-position: 50% 50%;
-	overfow: hidden;
-	height: 1300px;
-}
+	.navbar a{
+		color: #ffe4b5;
+	}
 
-footer{
-	background: url('img/footer2.png') no-repeat;
-	background-size: 1800px;
-	background-position:  50% 50%;
-	overflow: hidden;
-	height: 200px;
-	width: 95%;
-	margin: auto;
+	.navbar-light .navbar-nav .nav-link {
+		color: #ffe4b5;
+	}
 
-}
+	.navbar-nav{
+		width: 100%;
+		border-top: 1px solid #ffe4b5; 
+		border-bottom: 1px solid #ffe4b5;
+		margin-top: 10vh;
+	}
 
+	.navbar-toggler{
+		background: #ffe4b5;
+		margin-top: 50px;
+	}
 
-.title{
-	font-size: 80px;
-}
-
-.flex6{
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	justify-content: space-between;
-	align-items: center;
-}
+	.navbar-toggler-icon{
+		width: 2em;
+		height: 2em;
+		padding-left: 0
+	}
 
 
+	.nav-item a{
+		text-decoration: none;
+	}
 
-ul li{
-	display: inline;
-	list-style-type: none;
-	margin: 5px;
+	/************************************ END OF NAV ************************************/
+
+	.title h2{
+		font-size: 200px;
+		font-weight: 100;
+	}
+
+	.title{
+		color:  #ffe4b5;
+	}
+
+	.flex1{
+		display: flex;
+		flex-direction: column;
+		height: 68%;
+		justify-content: flex-end;
+	}
+
+	/************************************ SECOND SECTION ************************************/
+
+	.second-section {
+		/*  background: url(./img/img_bloc2.png) no-repeat center/cover;*/
+		background: url(img/img_bloc2.png) no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
+		overfow: hidden;
+		height: 1050px;
+	}
+
+	.second-section h2 {
+		color: #ffe4b5;
+		font-size: 50px;
+		letter-spacing: 2px;
+	}
+
+	.test{
+		height: 70vh;
+	}
+
+	.flex10{
+		height: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	/************************************ END OF SECOND SECTION ************************************/
+
+	/************************************  THIRD SECTION ************************************/
+
+	.third-section {
+		background: url(./img/img_bloc3.png)no-repeat center/cover;
+	}
+
+	.third-section__texts {
+		left: 50%;
+		bottom: calc(0% + 1rem);
+		transform: translateX(-50%);
+	}
+
+	.third-section > p  {
+		padding-top: 5rem;
+	}
 
 
-}
+	/************************************ END OF THIRD SECTION ************************************/
 
-.icone{
-	border-radius: 50%;
-}
+	/************************************ FOURTH SECTION ************************************/
 
-.color{
-	color: #ffe4b5;
-}
+	.bloc4{
+		top: 0 !important;
+		background: url('./img/img_bloc4.png') no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
+		overfow: hidden;
+		height: 1000px;
+		border-top: 5vh solid rgba(0, 0, 0, 0.1);
+		border-bottom: 5vh solid rgba(0, 0, 0, 0.3)
+	}
 
+	.flex4{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100%;
+	}
 
-.test1{
-	height: 90%;
-	text-align: center;
-}
+	/**** Dots for the menu ****/
+	.dots::after{
+		content: "...................";
+	}
 
-.center{
-	align-self: center;
-}
+	/************************************ END OF FOURTH SECTION ************************************/
 
-.end{
-	align-self: end;
-}
+	/************************************ FIFTH SECTION ************************************/
 
-.test3{
-	height: 100%;
-}
+	.bloc5{
+		top: 0 !important;
+		background: url('./img/img_bloc5.png')center no-repeat;
+		background-size: cover;
+		height: 100vh;
+		border-top: 5vh solid rgba(0, 0, 0, 0.3);
+		border-bottom: 5vh solid rgba(0, 0, 0, 0.3);
+	}
 
-.title2{
-	font-size: 100px;
-}
+	.bloc5 h2 {
+		color: #ffe4b5;
+		letter-spacing: 0.5rem;
+	}
 
+	.bloc5 .title {
+		letter-spacing: 1.5rem;
+	}
+
+	.bloc5 .position-absolute {
+		left: 50%;
+		bottom: calc(0% + 3rem);
+		transform: translateX(-50%);
+	}
+
+	/************************************ END OF FIFTH SECTION ************************************/
+
+	/************************************ SIXTH SECTION ************************************/
+
+	.bloc6{
+		top: 0 !important;
+		background: url('./img/img_bloc6.png') no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
+		overfow: hidden;
+		height: 1300px;
+	}
+
+	.bloc6 h1, h2 {
+		color: #ffe4b5;
+	}
+
+	.bloc6 .container{
+		height: 100%;
+	}
+
+	.rowBloc6{
+		height: 90%;
+		text-align: center;
+	}
+
+	.bloc6 .container{
+		height: 100%;
+	}
+
+	.title2{
+		font-size: 100px;
+	}
+
+	/************************************ END OF FIFTH SECTION ************************************/
+
+	/************************************ SEVENTH SECTION ************************************/
+
+	.seventh_section {
+		background: url("./img/img_bloc7.png") no-repeat center/cover;
+	}
+
+	.seventh_section--first-para {
+		width: 50%;
+	}
+
+	.seventh_section h2:last-of-type {
+		color: #ffe4b5;
+	}
+
+	.seventh_section p {
+		margin: 9rem;
+	}
+
+	/************************************ END OF SEVENTH SECTION ************************************/
+
+	/************************************ EIGHTH SECTION ************************************/
+
+	.bloc8{
+		top: 0 !important;
+		background: url('img/img_bloc8.png') no-repeat;
+		background-size: 1920px;
+		background-position: 50% 50%;
+		overfow: hidden;
+		height: 1300px;
+	}
+
+	/************************************ EIGHTH SECTION ************************************/
+
+	/************************************ FOOTER SECTION ************************************/
+
+	footer{
+		background: url('img/footer2.png') no-repeat;
+		background-size: 1800px;
+		background-position:  50% 50%;
+		overflow: hidden;
+		height: 200px;
+		width: 95%;
+		margin: auto;
+	}
+
+	.flex8{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	ul li{
+		display: inline;
+		list-style-type: none;
+		margin: 5px;
+	}
+
+	.icone{
+		border-radius: 50%;
+	}
