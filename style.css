@@ -147,8 +147,9 @@ h3{
 .bloc5{
 	top: 0 !important;
 	background: url('./img/img_bloc5.png')center no-repeat;
-	background-size: 1800px;
-	height: 110vh;
+	
+    background-size: cover;
+    height: 100vh;
 }
 
 .bloc5 h2 {
