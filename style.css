@@ -95,12 +95,6 @@
 		height: 1050px;
 	}
 
-	.second-section h2 {
-		color: #ffe4b5;
-		font-size: 50px;
-		letter-spacing: 2px;
-	}
-
 	.test{
 		height: 70vh;
 	}
@@ -220,7 +214,7 @@
 		font-size: 100px;
 	}
 
-	/************************************ END OF FIFTH SECTION ************************************/
+	/************************************ END OF SIXTH SECTION ************************************/
 
 	/************************************ SEVENTH SECTION ************************************/
 
@@ -291,7 +285,7 @@
 
 
 @media screen and(max-width: 900px){
-	body p{
+	.subTitle{
 		font-size: 40px;
 	}
 }
