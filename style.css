@@ -12,6 +12,7 @@ header{
 	background-position: 50% 50%;
 	overfow: hidden;
 	height: 1700px;
+	border-bottom: 20vh solid rgba(0, 0, 0 ,0.2);
 }
 
 header .container{
@@ -123,6 +124,8 @@ header .container{
 	background-position: 50% 50%;
 	overfow: hidden;
 	height: 1000px;
+	border-top: 5vh solid rgba(0, 0, 0, 0.1);
+		border-bottom: 5vh solid rgba(0, 0, 0, 0.3)
 }
 
 .flex4{
@@ -149,6 +152,8 @@ h3{
 	background: url('./img/img_bloc5.png')center no-repeat;
 	background-size: cover;
 	height: 100vh;
+	border-top: 5vh solid rgba(0, 0, 0, 0.3);
+	border-bottom: 5vh solid rgba(0, 0, 0, 0.3);
 }
 
 .bloc5 h2 {
