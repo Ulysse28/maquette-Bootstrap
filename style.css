@@ -170,10 +170,6 @@
 		letter-spacing: 0.5rem;
 	}
 
-	.bloc5 .title {
-		letter-spacing: 1.5rem;
-	}
-
 	.bloc5 .position-absolute {
 		left: 50%;
 		bottom: calc(0% + 3rem);
@@ -259,6 +255,7 @@
 		height: 200px;
 		width: 95%;
 		margin: auto;
+		margin-bottom: 20px;
 	}
 
 	.flex8{
